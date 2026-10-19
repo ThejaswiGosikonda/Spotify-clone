@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\logo.png" />
+    <title>Spotify - Web
+        Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="sidebar">
+            <div class="nav">
+                <div class="home">
+                    <div class="nav-option" style="opacity:1;">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="nav-option">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="#">Search</a>
+                    </div>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\library_icon.png" />
+                        <a href="#" style="background-color:#121212;">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\backward_icon.png">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\forward_icon.png"
+                        class="hide">
+                </div>
+                <!-- <div class="search"><input type="text" placeholder="what do your want to listen.." id="search
+                    " class="search-bar">
+                    <label for="search">Search</label>
+                </div> -->
+                <div class="sticky-nav-options">
+                    <button class="badge hide">Explore Premium</button>
+                    <div class="install">
+                        <button class="badge dark-badge"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    </div>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+
+            </div>
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Ma3cjl-0ARzGq001KYLP8gdy8NDmAGtHxeQgOm6XNw&s=10"
+                        alt="card" class="card-img">
+                    <p class="card-title">Liked Songs</p>
+                    <p class="card-info">Your daily updates of the most played... </p>
+                </div>
+
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7RuUHXIVO_gHDI59BNUYGN-6VgLYomMpY-A_-k6ew2b28oLDX-DhEn8wJ&s=10"
+                        alt="card" class="card-img">
+                    <p class="card-title">Repeat your..</p>
+                    <p class="card-info">Your daily updates of the most played... </p>
+                </div>
+
+                <div class="card">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\card1img.jpeg" alt="card"
+                        class="card-img">
+                    <p class="card-title">Top 50 -Global</p>
+                    <p class="card-info">Your daily updates of the most played... </p>
+                </div>
+            </div>
+
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\card2img.jpeg" alt="card"
+                        class="card-img">
+                    <p class="card-title">Mahiye Jinna</p>
+                    <p class="card-info">Your daily updates of the most played... </p>
+                </div>
+                <div class="card">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\card3img.jpeg" alt="card"
+                        class="card-img">
+                    <p class="card-title">Mere Paas Tum</p>
+                    <p class="card-info">Enjoy your music lisenting experience</p>
+                </div>
+                <div class="card">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\card4img.jpeg" alt="card"
+                        class="card-img">
+                    <p class="card-title">Thalapathy vibes</p>
+                    <p class="card-info">Alter Ego Naa ready.... </p>
+                </div>
+                <div class="card">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\WhatsApp Image 2026-07-04 at 4.26.55 PM.jpeg"
+                        alt="card" class="card-img">
+                    <p class="card-title">Nuvvunte Na..</p>
+                    <p class="card-info">A R Rahaman, V.Ravichandhran.. </p>
+                </div>
+            </div>
+            <h2>Famous artists..</h2>
+            <div class="card-container">
+                <div class="card artist">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\WhatsApp Image 2026-07-04 at 4.26.40 PM.jpeg"
+                        alt="img" style="width:150px;">
+                    <p class="artist-name" style="text-align:left;">Pritham</p>
+                    <p class=" card-info" style="text-align:left;">Artist</p>
+                </div>
+
+                <div class="card artist">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\WhatsApp Image 2026-07-04 at 4.26.41 PM.jpeg"
+                        alt="img" style="width:150px;">
+                    <p class="artist-name" style="text-align:left;">A.R. Rahman</p>
+                    <p class=" card-info" style="text-align:left;">Artist</p>
+                </div>
+
+                <div class="card artist">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\WhatsApp Image 2026-07-04 at 4.26.45 PM (1).jpeg"
+                        alt="img" style="width:150px;">
+                    <p class="artist-name" style="text-align:left;">Sid Sriram</p>
+                    <p class=" card-info" style="text-align:left;">Artist</p>
+                </div>
+
+                <div class="card artist">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\WhatsApp Image 2026-07-04 at 4.26.47 PM.jpeg"
+                        alt="img" style="width:150px;">
+                    <p class="artist-name" style="text-align:left;">Argith Sigh</p>
+                    <p class=" card-info" style="text-align:left;">Artist</p>
+                </div>
+
+                <div class="card artist">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\WhatsApp Image 2026-07-04 at 4.26.48 PM.jpeg"
+                        alt="img" style="width:150px;">
+                    <p class="artist-name" style="text-align:left;">Anurudh Ravichandar</p>
+                    <p class=" card-info" style="text-align:left;">Artist</p>
+                </div>
+
+                <div class="card artist">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\mangli.jpeg" alt="img"
+                        style="width:150px;">
+                    <p class="artist-name" style="text-align:left;">Mangli</p>
+                    <p class=" card-info" style="text-align:left;">Artist</p>
+                </div>
+
+                <div class="card artist">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\WhatsApp Image 2026-07-04 at 4.26.52 PM.jpeg"
+                        alt="img" style="width:150px;">
+                    <p class="artist-name" style="text-align:left;">Imagine Dragons</p>
+                    <p class=" card-info" style="text-align:left;">Artist</p>
+                </div>
+
+                <div class="card artist">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\WhatsApp Image 2026-07-04 at 4.26.50 PM.jpeg"
+                        alt="img" style="width:150px;">
+                    <p class="artist-name" style="text-align:left;">Marshmeloo</p>
+                    <p class=" card-info" style="text-align:left;">Artist</p>
+                </div>
+            </div>
+
+            <h2>Popular radio</h2>
+            <div class="card-container">
+                <div class="radio card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUjS9qZXlu0SsTRWG5ypvc6ydPp-lJL0oOwp256rO8pQaoscCQKk81wcHV&s=10"
+                        alt="radio" style="width:150px;" class="card-img">
+                    <p class="card-info">With Jeet Gannguli,Pritam...</p>
+                </div>
+
+                <div class="radio card">
+                    <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4fEkbug6kZzzJ8eYX6Kbbp/de"
+                        alt="radio" style="width:150px;" class="card-img">
+                    <p class="card-info">By Spotify | KK Radio vibe wit..</p>
+                </div>
+
+                <div class="radio card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNlQC58a6-2Lbh-q5lxWjq1fqA9f6qSlAgX4frS7ug4meDKTekRPkztigF&s=10"
+                        alt="radio" style="width:150px;" class="card-img">
+                    <p class="card-info">With Pritam, Shaarib Toshi, Vishal-Shekhar..</p>
+                </div>
+
+                <div class="radio card ">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVeQ5gIE9FXCghKRT5OhFFT-gYJQiiRgEB_gEdFGxPJg&s=10"
+                        alt="radio" style="width:150px;" class="card-img">
+                    <p class="card-info">With Vinod Rathod,Kumar...</p>
+                </div>
+
+                <div class="radio card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEYPE1rhOXPSjI6c15UqsQ7yrwu7wRAkfvLzs72JvUxA&s"
+                        alt="radio" style="width:150px;" class="card-img">
+                    <p class="card-info">With Unnikrishan, Argit Singh,Chinamyi...</p>
+                </div>
+            </div>
+
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\card5img.jpeg" alt="card"
+                        class="card-img" class="card-img">
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">Weekly Music Charts</p>
+                </div>
+                <div class="card">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\card6img.jpeg" alt="card"
+                        class="card-img" class="card-img">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Anirudh Ravichander,sid Sriram, Yuvan Shan... </p>
+                </div>
+                <div class="card">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\card1img.jpeg" alt="card"
+                        class="card-img" class="card-img">
+                    <p class="card-title">Top 50 -Global</p>
+                    <p class="card-info">Your daily updates of the most played... </p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+
+        <div class="music-player">
+            <div class="album">
+                <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\album_picture.jpeg"
+                    alt="album image" style="height:3rem;width:3rem;" class="album-img">
+                <div class="album-text">
+                    <p class="p1">Daylight</p>
+                    <p class="p2">David Kushner</p>
+                </div>
+                <div class="album-icons">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\album_icon1.png" alt="icon1"
+                        style="height:2rem; width:2rem;" class="xyz">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\album_icon2.png" alt="icon2"
+                        style="height:2rem; width:2rem;" class="xyz">
+                </div>
+            </div>
+
+            <div class="player">
+                <div class="player-controls">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\player_icon1.png"
+                        alt="player icon" class="player-control-icon">
+
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\player_icon2.png"
+                        alt="player icon" class="player-control-icon">
+
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\player_icon3.png"
+                        alt="player icon" class="player-control-icon" style="opacity:1;height:2rem">
+
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\player_icon4.png"
+                        alt="player icon" class="player-control-icon">
+
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\player_icon5.png"
+                        alt="player icon" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">3:33</span>
+
+                </div>
+            </div>
+            <div class="controls">
+                <div class="control-icons">
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\controls_icon1.png"
+                        alt="ic1" class="control-icon">
+
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\controld_icon2.png"
+                        alt="ic2" class="control-icon">
+
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\controls_icon3.png"
+                        alt="ic3" class="control-icon" style="height:1.25rem; opacity:0.7;">
+
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\controls_icon4.png"
+                        alt="ic4" class="control-icon" style="height:1.25rem; opacity:0.7;">
+
+                    <img src="C:\Users\Thejaswi Gosikonda\Documents\sigma12\spotify project\controls_icon5.png"
+                        alt="ic5" class="control-icon" style="height:2.5rem;">
+                    <input type="range" class="vol" min="0" max="100" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
